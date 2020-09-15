@@ -28,10 +28,10 @@ Facebook  : https://m.facebook.com/shubham.gosain.980
 
 # [ Installation ]
 ```
-$ apt update && apt upgrade
-$ apt install git python2
-$ git clone https://github.com/shubhamggosai/Facebook_hack.git
-$ cd Facebook_hack
+ apt update && apt upgrade
+ apt install git python2
+ git clone https://github.com/shubhamggosai/Facebook_hack.git
+ cd Facebook_hack
 ```
 
 # [ Setup ]
