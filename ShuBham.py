@@ -21,7 +21,7 @@ try:
 	import requests
 except ImportError:
         print R + 'Author ShuBham'.center(44)
-        print "Name shubhamggosai".center(44)
+        print "Name Facebook_hack".center(44)
         print 'Mail sgosain18122001@mail.com'.center(44)
         print W + ' '
 	print ('F A C E B O O K').center(44)
@@ -31,7 +31,7 @@ except ImportError:
 ####################################################################
 #                    Set Default encoding
 reload (sys)
-sys . setdefaultencoding ( 'utf8' )
+sys . setdefaultencoding ( 'ShuBham' )
 ####################################################################
 #       	        I don't know
 jml = []
@@ -49,9 +49,9 @@ def baliho():
 
 	except (KeyError,IOError):
 	 
-		print R + 'Author      ShuBham'.center(44)
-	        print "Name            shubhamggosai".center(44)
-	        print 'Mail            sgosain18122001@mail.com'.center(44)
+		print R + 'Author ShuBham'.center(44)
+	        print "Name Facebook_hack".center(44)
+	        print 'Mail sgosain18122001@mail.com'.center(44)
                 print W + ' '
 	        print ('F A C E B O O K').center(44)
 		print (W + '     [' + G +'Facebook Information'+ W + ']')
