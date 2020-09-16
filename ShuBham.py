@@ -11,10 +11,24 @@ if sys.platform in ["linux","linux2"]:
 	W = "\033[0m"
         G = '\033[32;1m'
         R = '\033[31;1m'
+        echo -e "\e[1;31m"
+        echo -e "\e[1;32m"
+        echo -e "\e[1;33m"
+        echo -e "\e[1;34m"
+        echo -e "\e[1;35m"
+        echo -e "\e[1;36m"
+        echo -e "\e[1;37m"
 else:
 	W = ''
 	G = ''
 	R = ''
+        echo -e " "
+        echo -e " "
+        echo -e " "
+        echo -e " "
+        echo -e " "
+        echo -e " "
+        echo -e " " 
 ###################################################################
 #                      Exception
 try:
