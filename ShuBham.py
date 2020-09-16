@@ -31,7 +31,7 @@ except ImportError:
 ####################################################################
 #                    Set Default encoding
 reload (sys)
-sys . setdefaultencoding ( 'ShuBham' )
+sys . setdefaultencoding ('utf8')
 ####################################################################
 #       	        I don't know
 jml = []
