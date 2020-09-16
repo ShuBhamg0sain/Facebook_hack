@@ -23,9 +23,7 @@ except ImportError:
 	print R + 'Author      ShuBham'.center(44)
 	print "Name            shubhamggosai".center(44)
 	print 'Mail            sgosain18122001@mail.com'.center(44)
-	print 'instagram       shubham_g0sain'.center(44)
-        Print 'facebook        shubham.gosain.980'.center(44)
-	print W + ' '
+        print W + ' '
 	print ('F A C E B O O K').center(44)
 	print ' '
 	print "[!] Can't import module 'requests'\n"
@@ -54,9 +52,7 @@ def baliho():
 		print R + 'Author      ShuBham'.center(44)
 	        print "Name            shubhamggosai".center(44)
 	        print 'Mail            sgosain18122001@mail.com'.center(44)
-         	print 'instagram       shubham_g0sain/?hl=en'.center(44)
-                Print 'facebook        shubham.gosain.980'.center(44)
-	        print W + ' '
+                print W + ' '
 	        print ('F A C E B O O K').center(44)
 		print (W + '     [' + G +'Facebook Information'+ W + ']')
 		print ' '
@@ -73,7 +69,8 @@ def show_program():
     Version    Full Version
     Date       08/04/2020 
     Mail       sgosain18122001@mail.com
-
+    Facebook   shubham.gosain.980
+    Instagram  shubham_g0sain
 * if you find any errors or problems , please contact
   author
 '''%(G,W)
