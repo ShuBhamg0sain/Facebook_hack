@@ -20,9 +20,9 @@ else:
 try:
 	import requests
 except ImportError:
-	print R + 'Author      ShuBham'.center(44)
-	print "Name            shubhamggosai".center(44)
-	print 'Mail            sgosain18122001@mail.com'.center(44)
+print R + 'Author      ShuBham'.center(44)
+       print "Name            shubhamggosai".center(44)
+        print 'Mail            sgosain18122001@mail.com'.center(44)
         print W + ' '
 	print ('F A C E B O O K').center(44)
 	print ' '
@@ -50,8 +50,8 @@ def baliho():
 	except (KeyError,IOError):
 	 
 		print R + 'Author      ShuBham'.center(44)
-	        print "Name            shubhamggosai".center(44)
-	        print 'Mail            sgosain18122001@mail.com'.center(44)
+	               print "Name            shubhamggosai".center(44)
+	                print 'Mail            sgosain18122001@mail.com'.center(44)
                 print W + ' '
 	        print ('F A C E B O O K').center(44)
 		print (W + '     [' + G +'Facebook Information'+ W + ']')
@@ -80,10 +80,10 @@ def info_ga():
      %sCOMMAND                      DESCRIPTION%s
   -------------       -------------------------------------
 
-   get_data           fetching all friends data
-   get_info           show information about your friend
+ %sget_data           fetching all friends data%s
+ %sget_info           show information about your friend%s
 
-   dump_id            fetching all id from friend list
+ %sdump_id            fetching all id from friend list%s
    dump_phone         fetching all phone number from friend list
    dump_mail          fetching all emails from friend list
    dump_<id>_id       fetching all id from your friends <spesific>
