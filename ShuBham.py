@@ -50,7 +50,7 @@ def baliho():
 		name = a['name']
 		n.append(a['name'])
 
-	except (KeyError,IOError)
+	except (KeyError,IOError:
                 print G + ' '
                 Print ('Author        ShuBham').center(44)
                 Print ('Name          shubhamggosai').center(44)
