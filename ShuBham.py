@@ -10,30 +10,23 @@ import json , sys , hashlib , os , time , marshal, getpass
 if sys.platform in ["linux","linux2"]:
 	W = "\033[0m"
         G = '\033[32;1m'
-        R = '\033[31;1m'
-        echo -e "\e[1;31m"
-        echo -e "\e[1;32m"
-        echo -e "\e[1;33m"
-        echo -e "\e[1;34m"
-        echo -e "\e[1;35m"
-        echo -e "\e[1;36m"
-        echo -e "\e[1;37m"
+        R = '\033[31;1m'     
 else:
 	W = ''
 	G = ''
-	R = ''
-        echo -e " " 
+	R = ''       
 ###################################################################
 #                      Exception
 try:
 	import requests
 except ImportError:
-	
-        Print ('echo -e "\e[1;34mAuthor"    echo -e "\e[1;33mShuBham"').center(44)
-        Print ('echo -e "\e[1;34mName"      echo -e "\e[1;32mshubhamggosai"').center(44)
-        Print ('echo -e "\e[1;34mMail"      echo -e "\e[1;35msgosain18122001@mail.com"').center(44)
-        Print ('echo -e "\e[1;34minstagram  echo -e "\e[1;36mhttps://www.instagram.com/shubham_g0sain/?hl=en"').center(44)
-        Print ('echo -e "\e[1;34mfacebook   echo -e "\e[1;33mhttps://m.facebook.com/shubham.gosain.980"').center(44)
+	print G + ' '
+        Print ('Author        ShuBham').center(44)
+        Print ('Name          shubhamggosai').center(44)
+        Print ('Mail          sgosain18122001@mail.com').center(44)
+        Print ('instagram     https://www.instagram.com/shubham_g0sain/?hl=en').center(44)
+        Print ('facebook      https://m.facebook.com/shubham.gosain.980').center(44)
+        print W + ' '
         print ('F.A.C.E.B.O.O.K').center(44)
 	print ' '
 	print "[!] Can't import module 'requests'\n"
@@ -57,14 +50,15 @@ def baliho():
 		name = a['name']
 		n.append(a['name'])
 
-	except (KeyError,IOError):
-	 
-		Print ('echo -e "\e[1;34mAuthor"    echo -e "\e[1;33mShuBham"').center(44)
-                Print ('echo -e "\e[1;34mName"      echo -e "\e[1;32mshubhamggosai"').center(44)
-                Print ('echo -e "\e[1;34mMail"      echo -e "\e[1;35msgosain18122001@mail.com"').center(44)
-                Print ('echo -e "\e[1;34minstagram  echo -e "\e[1;36mhttps://www.instagram.com/shubham_g0sain/?hl=en"').center(44)
-		Print ('echo -e "\e[1;34mfacebook   echo -e "\e[1;33mhttps://m.facebook.com/shubham.gosain.980"').center(44)
-                print ('F.A.C.E.B.O.O.K').center(44)
+	except (KeyError,IOError)
+                print G + ' '
+                Print ('Author        ShuBham').center(44)
+                Print ('Name          shubhamggosai').center(44)
+                Print ('Mail          sgosain18122001@mail.com').center(44)
+                Print ('instagram     https://www.instagram.com/shubham_g0sain/?hl=en').center(44)
+                Print ('facebook      https://m.facebook.com/shubham.gosain.980').center(44)
+                print W + ' '
+                print ('F.A.C.E.B.O.O.K').center(44)       
 		print (W + '     [' + G +'Facebook Information'+ W + ']')
 		print ' '
 ####################################################################
