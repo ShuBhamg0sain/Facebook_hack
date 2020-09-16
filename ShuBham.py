@@ -10,24 +10,23 @@ import json , sys , hashlib , os , time , marshal, getpass
 if sys.platform in ["linux","linux2"]:
 	W = "\033[0m"
         G = '\033[32;1m'
-        R = '\033[31;1m'     
+        R = '\033[31;1m'
 else:
 	W = ''
 	G = ''
-	R = ''       
+	R = ''
 ###################################################################
 #                      Exception
 try:
 	import requests
 except ImportError:
-	print G + ' '
-        Print ('Author        ShuBham').center(44)
-        Print ('Name          shubhamggosai').center(44)
-        Print ('Mail          sgosain18122001@mail.com').center(44)
-        Print ('instagram     https://www.instagram.com/shubham_g0sain/?hl=en').center(44)
-        Print ('facebook      https://m.facebook.com/shubham.gosain.980').center(44)
-        print W + ' '
-        print ('F.A.C.E.B.O.O.K').center(44)
+	print R + 'Author      ShuBham'.center(44)
+	print "Name          shubhamggosai".center(44)
+	print 'Mail          sgosain18122001@mail.com'.center(44)
+	print 'instagram     https://www.instagram.com/shubham_g0sain/?hl=en'.center(44)
+        Print 'facebook      https://m.facebook.com/shubham.gosain.980'.center(44)
+	print W + ' '
+	print ('F A C E B O O K').center(44)
 	print ' '
 	print "[!] Can't import module 'requests'\n"
 	sys.exit()
@@ -50,15 +49,15 @@ def baliho():
 		name = a['name']
 		n.append(a['name'])
 
-	except (KeyError,IOError:
-                print G + ' '
-                Print ('Author        ShuBham').center(44)
-                Print ('Name          shubhamggosai').center(44)
-                Print ('Mail          sgosain18122001@mail.com').center(44)
-                Print ('instagram     https://www.instagram.com/shubham_g0sain/?hl=en').center(44)
-                Print ('facebook      https://m.facebook.com/shubham.gosain.980').center(44)
-                print W + ' '
-                print ('F.A.C.E.B.O.O.K').center(44)       
+	except (KeyError,IOError):
+	 
+		print R + 'Author      ShuBham'.center(44)
+	        print "Name          shubhamggosai".center(44)
+	        print 'Mail          sgosain18122001@mail.com'.center(44)
+         	print 'instagram     https://www.instagram.com/shubham_g0sain/?hl=en'.center(44)
+                Print 'facebook      https://m.facebook.com/shubham.gosain.980'.center(44)
+	        print W + ' '
+	        print ('F A C E B O O K').center(44)
 		print (W + '     [' + G +'Facebook Information'+ W + ']')
 		print ' '
 ####################################################################
@@ -68,15 +67,12 @@ def show_program():
 	print '''
                     %sINFORMATION%s
  ------------------------------------------------------
-   echo -e "\e[1;34mAuthor"    echo -e "\e[1;33mShuBham"
-   echo -e "\e[1;34mName"      echo -e "\e[1;32mshubhamggosai"
-      Version        Full Version
-      Date           08/04/2020 
-   echo -e "\e[1;34mMail"      echo -e "\e[1;35msgosain18122001@mail.com"
-   echo -e "\e[1;34minstagram  echo -e "\e[1;36mhttps://www.instagram.com/shubham_g0sain/?hl=en"
-   echo -e "\e[1;34mfacebook   echo -e "\e[1;33mhttps://m.facebook.com/shubham.gosain.980"
-     
 
+    Author     shubhamggosai
+    Name       Facebook_hack
+    Version    Full Version
+    Date       08/04/2020 
+    Mail       sgosain18122001@mail.com
 
 * if you find any errors or problems , please contact
   author
