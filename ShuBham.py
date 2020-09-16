@@ -20,12 +20,13 @@ else:
 try:
 	import requests
 except ImportError:
-	print R + '_     _'.center(44)
-	print "o' \.=./ `o".center(44)
-	print '(o o)'.center(44)
-	print 'ooO--(_)--Ooo'.center(44)
-	print W + ' '
-	print ('F B I').center(44)
+	
+        Print ('echo -e "\e[1;34mAuthor"    echo -e "\e[1;33mShuBham"').center(44)
+        Print ('echo -e "\e[1;34mName"      echo -e "\e[1;32mshubhamggosai"').center(44)
+        Print ('echo -e "\e[1;34mMail"      echo -e "\e[1;35msgosain18122001@mail.com"').center(44)
+        Print ('echo -e "\e[1;34minstagram  echo -e "\e[1;36mhttps://www.instagram.com/shubham_g0sain/?hl=en"').center(44)
+        Print ('echo -e "\e[1;34mfacebook   echo -e "\e[1;33mhttps://m.facebook.com/shubham.gosain.980"').center(44)
+        print ('F.A.C.E.B.O.O.K').center(44)
 	print ' '
 	print "[!] Can't import module 'requests'\n"
 	sys.exit()
@@ -50,12 +51,12 @@ def baliho():
 
 	except (KeyError,IOError):
 	 
-		print R + '_     _'.center(44)
-		print "o' \.=./ `o".center(44)
-		print '(o o)'.center(44)
-		print 'ooO--(_)--Ooo'.center(44)
-		print ' ' + W
-		print ('F B I').center(44)
+		Print ('echo -e "\e[1;34mAuthor"    echo -e "\e[1;33mShuBham"').center(44)
+                Print ('echo -e "\e[1;34mName"      echo -e "\e[1;32mshubhamggosai"').center(44)
+                Print ('echo -e "\e[1;34mMail"      echo -e "\e[1;35msgosain18122001@mail.com"').center(44)
+                Print ('echo -e "\e[1;34minstagram  echo -e "\e[1;36mhttps://www.instagram.com/shubham_g0sain/?hl=en"').center(44)
+		Print ('echo -e "\e[1;34mfacebook   echo -e "\e[1;33mhttps://m.facebook.com/shubham.gosain.980"').center(44)
+                print ('F.A.C.E.B.O.O.K').center(44)
 		print (W + '     [' + G +'Facebook Information'+ W + ']')
 		print ' '
 ####################################################################
@@ -65,12 +66,15 @@ def show_program():
 	print '''
                     %sINFORMATION%s
  ------------------------------------------------------
+   echo -e "\e[1;34mAuthor"    echo -e "\e[1;33mShuBham"
+   echo -e "\e[1;34mName"      echo -e "\e[1;32mshubhamggosai"
+      Version        Full Version
+      Date           08/04/2020 
+   echo -e "\e[1;34mMail"      echo -e "\e[1;35msgosain18122001@mail.com"
+   echo -e "\e[1;34minstagram  echo -e "\e[1;36mhttps://www.instagram.com/shubham_g0sain/?hl=en"
+   echo -e "\e[1;34mfacebook   echo -e "\e[1;33mhttps://m.facebook.com/shubham.gosain.980"
+     
 
-    Author      ShuBham
-    Name       shubhamggosai
-    Version    Full Version
-    Date       08/04/2020 
-    Mail       sgosain18122001@mail.com
 
 * if you find any errors or problems , please contact
   author
