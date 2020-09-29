@@ -31,7 +31,7 @@ Telegram : https://t.me/ShuBham_g0sain
 ```
  apt update && apt upgrade
  apt install git python2
- git clone https://github.com/shubhamggosai/Facebook_hack.git
+ git clone https://github.com/ShuBhamg0sain/Facebook_hack.git
  cd Facebook_hack
 ```
 
